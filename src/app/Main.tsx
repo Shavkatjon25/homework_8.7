@@ -1,14 +1,18 @@
+
+
 import Image from "next/image"
 
 
+
 function Main() {
+  
   return (
     <div className="lg:px-[120px]">
 
         <div className="bg-[#154444] text-[#fff] px-6 pt-[49px] mt-[47px] lg:flex lg:p-0">
             <div className="lg:pl-[100px] pt-[100px] lg:pr-5">
                 <h2 className="mainh lg:text-[56px] ">We Help You Make Modern Furniture</h2>
-                <p className="mainp mt-3 mb-[30px] lg:text-[20px] w-[448px]">All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials </p>
+                <p className="mainp mt-3 mb-[30px] lg:text-[20px] lg:w-[448px]">All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials </p>
                 <button className="mainbtn px-8 py-[10px] bg-white mb-10">Explore More</button>
             </div>
             <Image src='/rasm1.png' width={309} height={326} alt="x" className="mx-auto lg:order-[-1] lg:h-full lg:m-0"/>
@@ -64,7 +68,7 @@ function Main() {
 
       <div className="px-6 mt-[60px]" >
         <h2 className="about lg:text-[32px]">Our Popular Furniture</h2>
-        <p className="all lg:text-[20px] w-[800px]">All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials and choices for our customers.</p>
+        <p className="all lg:text-[20px] lg:w-[800px]">All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials and choices for our customers.</p>
       </div>
 
 
@@ -142,7 +146,7 @@ function Main() {
             <option value="">Shop By Category</option>
             <option value="">Shop By Style</option>
           </select>
-          <div className="flex justify-around">
+          <div className="lg:flex justify-around hidden">
             <h2 className="by3 border-b-2 border-black">Shop By Room</h2>
             <h2 className="by2">Shop By Category</h2>
             <h2 className="by2">Shop By Style</h2>

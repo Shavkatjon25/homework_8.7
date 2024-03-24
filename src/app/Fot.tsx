@@ -10,7 +10,7 @@ function Fot() {
             <h2 className="ft">DudeShape</h2>
             <p className="fp w-[180px]">Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed eiusmod tempor incididunt ut labore .</p>
             <h3 className="fh3">Follow Us :</h3>
-            <div className="flex gap-[2px]">
+            <div className="flex gap-[2px] lg:gap-[15px]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
   <g clipPath="url(#clip0_2418_673)">
     <path d="M10 20.9253C15.5228 20.9253 20 16.4481 20 10.9253C20 5.40245 15.5228 0.925293 10 0.925293C4.47715 0.925293 0 5.40245 0 10.9253C0 16.4481 4.47715 20.9253 10 20.9253Z" fill="white"/>
