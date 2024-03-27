@@ -3,7 +3,7 @@ import { useState } from "react"
 
 
 function Heder() {
-  const [modal, setModal]=useState(true)
+  const [modal, setModal]=useState(false)
   function Mod(){
     setModal(!modal)
   }
